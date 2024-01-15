@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="opCtx2">Close app</string>
+    <string name="opCtx3">Add task</string>
+    <string name="opCtx4">Favorites</string>
+    <string name="opCtx1">About...</string>
+    <string name="opCtx5">Create task</string>
+    <string name="texto1">Edit task</string>
+    <string name="texto2">No tasks available.</string>
+    <string name="quedan">" "</string>
+    <string name="ad_campos_incompletos">Incomplete fields</string>
+    <string name="ad_campos_contenido">Complete title and date fields</string>
+    <string name="diasRestantes">" days left."</string>
+    <string name="descripcionAlt">No description available for this task.</string>
+    <string name="texto3">Your tasks, your pace, your success.</string>
+    <string name="texto4">Start</string>
+    <string name="texto5">Start date</string>
+    <string name="texto6">Task name</string>
+    <string name="texto7">End date</string>
+    <string name="texto8">Progress</string>
+    <string name="texto9">Prioritary</string>
+    <string name="texto10">Description</string>
+    <string name="btnCerrar">Cancel</string>
+    <string name="btnSiguiente">Next</string>
+    <string name="btnGuardar">Save</string>
+    <string name="btnVolver">Go back</string>
+    <string name="mnDescripcion">Description</string>
+    <string name="mnEditar">Edit</string>
+    <string name="mnBorrar">Delete</string>
+    <string name="NoIniciada">Not started</string>
+    <string name="Iniciada">Started</string>
+    <string name="Avanzada">Advanced</string>
+    <string name="CasiFinalizada">Almost completed</string>
+    <string name="Finalizada">Completed</string>
+    <string name="bt_aceptar">Accept</string>
+    <string name="action_canceled">Action cancelled</string>
+    <string name="tarea_edit">Edited task</string>
+    <string name="about_title">About...</string>
+
+
+</resources>

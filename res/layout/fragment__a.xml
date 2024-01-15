@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.Fragment_A">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/fragment__a"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+
+            <TextView
+                android:id="@+id/tvNombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/texto6"></TextView>
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edNombre"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+
+                android:layout_marginBottom="10dp"
+                android:saveEnabled="true">
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+            <TextView
+                android:id="@+id/tvFechaInicio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/texto5"></TextView>
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etPlannedDate"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:clickable="true"
+                android:focusable="false"
+                android:inputType="text"
+                android:saveEnabled="true" />
+
+            <TextView
+                android:id="@+id/tvFechaFin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="@string/texto7"></TextView>
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etEndDate"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:clickable="true"
+
+                android:focusable="false"
+                android:inputType="text"
+                android:saveEnabled="true" />
+
+            <TextView
+                android:id="@+id/tvProgreso"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/texto8"></TextView>
+
+            <Spinner
+                android:id="@+id/spProgress"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                tools:listitem="@layout/support_simple_spinner_dropdown_item"></Spinner>
+
+            <TextView
+                android:id="@+id/tvFavorita"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/texto9"></TextView>
+
+            <CheckBox
+                android:id="@+id/chk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"></CheckBox>
+
+            <TextView
+                android:id="@+id/tvUpload"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/upload" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/addFileDoc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="10dp"
+                    android:backgroundTint="#D6BABA"
+                    android:backgroundTintMode="screen"
+                    android:text="@string/doc"
+                    android:textColor="@color/grey" />
+
+                <Button
+                    android:id="@+id/addFileImg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="6dp"
+                    android:layout_marginVertical="10dp"
+                    android:backgroundTint="#D6BABA"
+
+                    android:text="@string/img"
+                    android:textColor="@color/grey" />
+
+                <Button
+                    android:id="@+id/addFileAudio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="6dp"
+                    android:layout_marginVertical="10dp"
+                    android:backgroundTint="#D6BABA"
+                    android:text="@string/audio"
+                    android:textColor="@color/grey" />
+
+                <Button
+                    android:id="@+id/addFileVideo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="10dp"
+                    android:backgroundTint="#D6BABA"
+                    android:text="@string/video"
+                    android:textColor="@color/grey" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvFile"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:paddingHorizontal="4dp"
+
+
+                        />
+
+                    <ImageButton
+                        android:id="@+id/deleteDoc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@android:drawable/ic_menu_close_clear_cancel"
+                        android:visibility="gone"></ImageButton>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvFileImg"
+                        android:layout_width="wrap_content"
+                        android:maxWidth="250dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:paddingHorizontal="4dp" />
+
+                    <ImageButton
+                        android:id="@+id/deleteImg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@android:drawable/ic_menu_close_clear_cancel"
+                        ></ImageButton>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tvFileAud"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:paddingHorizontal="4dp"
+                            />
+
+                        <ImageButton
+                            android:id="@+id/deleteAud"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@android:drawable/ic_menu_close_clear_cancel"
+                            android:visibility="gone"></ImageButton>
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/tvFileVid"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:paddingHorizontal="4dp"
+                        />
+                    <ImageButton
+                        android:id="@+id/deleteVid"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@android:drawable/ic_menu_close_clear_cancel"
+                        android:visibility="gone"></ImageButton>
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnSiguiente"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:background="@drawable/custom_buttom2"
+                android:text="@string/btnSiguiente"
+                android:textColor="@color/grey" />
+
+            <Button
+                android:id="@+id/btnCancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/custom_buttom2"
+                android:text="@string/btnCerrar"
+                android:textColor="@color/grey" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

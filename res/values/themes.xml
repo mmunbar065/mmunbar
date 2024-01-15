@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.My_Application" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Customize your dark theme here.
+        <item name="colorPrimary">@color/light_dark</item>
+        <item name="android:background">@color/light_dark</item>
+        <item name="android:textColorPrimary">@color/claret</item>
+        < <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="buttonStyle" >@drawable/custom_buttom3</item>
+        <item name="android:button">@drawable/custom_buttom3</item>
+
+    </style>
+    <style name="FontSizeSmall">
+        <item name="android:textSize">9dp</item>
+    </style>
+    <style name="FontSizeMedium">
+        <item name="android:textSize">16dp</item>
+    </style>
+    <style name="FontSizeLarge">
+        <item name="android:textSize">28dp</item>
+    </style>
+    <style name="Theme.My_Application" parent="Base.Theme.My_Application" />
+</resources>

@@ -1,0 +1,116 @@
+<resources>
+    <string name="app_name" translatable="false">TrassTarea</string>
+    <string name="opCtx1">Acerca de...</string>
+    <string name="opCtx2">Salir</string>
+    <string name="opCtx3">Add task</string>
+    <string name="opCtx4">Favoritas</string>
+    <string name="opCtx5">Crear Tarea</string>
+    <string name="texto1">Editar Tarea</string>
+    <string name="texto2">No hay tareas disponibles.</string>
+    <string name="texto4">Empezar</string>
+    <string name="texto5">Fecha de inicio</string>
+    <string name="texto6">Nombre de la tarea</string>
+    <string name="texto7">Fecha de fin</string>
+    <string name="texto8">Progreso</string>
+    <string name="listado_tv_no_prioritarias">No hay tareas prioritarias disponibles</string>
+    <string name="about_title">Acerca de…</string>
+    <string name="about_msg">José Luis Camuñas\n IES Trassierra\n\u00A9 2023</string>
+    <string name="about_ok">Aceptar</string>
+    <string name="dialog_confirmacion_titulo">Confirmar borrado</string>
+    <string name="dialog_yes">Sí</string>
+    <string name="dialog_no">No</string>
+    <string name="dialog_msg">¿Confirmas que quieres borrar la tarea:</string>
+    <string name="dialog_erased">Tarea borrada</string>
+    <string name="dialog_not_found">Tarea no encontrada</string>
+    <string name="dialog_description">Descripción</string>
+    <string name="archivo">Detalle del archivo</string>
+    <string name="dialog_close">Cerrar</string>
+    <string name="texto9">Prioritaria</string>
+    <string name="texto10">Descripción</string>
+    <string name="btnCerrar">Cancelar</string>
+    <string name="btnSiguiente">Siguiente</string>
+    <string name="btnGuardar">Guardar</string>
+    <string name="btnVolver">Volver</string>
+    <string name="mnDescripcion">Descripción</string>
+    <string name="mnEditar">Editar</string>
+    <string name="mnBorrar">Borrar</string>
+    <string name="quedan">Quedan: </string>
+    <string name="ad_campos_incompletos">Campos incompletos</string>
+    <string name="ad_campos_contenido">Complete la información de título y fechas</string>
+    <string name="bt_aceptar">Aceptar</string>
+    <string name="action_canceled">Acción cancelada</string>
+    <string name="tarea_edit">Tarea editada</string>
+    <string name="diasRestantes"> días.</string>
+    <string name="descripcionAlt">Esta tarea no tiene descripción.</string>
+    <string name="preferencias">Preferencias</string>
+    <string name="visualizacion">Visualización</string>
+    <string name="alto_contraste">Alto Contraste</string>
+    <string name="mejorar_visualizacion">Mejora visualización de personas con daltonismo</string>
+    <string name="tema_oscuro">Tema oscuro</string>
+    <string name="tema_claro">Tema claro</string>
+    <string name="tema">Tema</string>
+    <string name="tamanho_letra">Tamaño de letra</string>
+    <string name="tamanho_summary">Elige el tamaño de la letra</string>
+    <string name="ordenacion">Ordenación</string>
+    <string name="criterios">Criterio</string>
+    <string name="orden">Orden</string>
+    <string name="asc">asc</string>
+    <string name="desc">desc</string>
+    <string name="almacenamiento">Almacenamiento</string>
+    <string name="alm_sd">Almacenamiento en tarjeta SD</string>
+    <string name="limp_archivos">Limpieza de archivos</string>
+    <string name="basedatos">Base de Datos</string>
+    <string name="bd">bd</string>
+    <string name="bd_ext">Base de datos externa</string>
+    <string name="bd_local">Base de datos local SQLite</string>
+    <string name="ext">ext</string>
+    <string name="int_">int</string>
+    <string name="nom_bd">Nombre Base de Datos</string>
+    <string name="ip">IP</string>
+    <string name="puerto">Puerto</string>
+    <string name="usuario">Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="limp_sum">Periodicidad de eliminación de archivos antiguos</string>
+    <string name="alm_sum">Los archivos adjuntos se guardarán en la tarjeta SD</string>
+    <string name="upload">Upload</string>
+    <string name="uploads">Archivos</string>
+    <string name="uploads_alt">None</string>
+    <string name="doc">Doc</string>
+    <string name="img">Img</string>
+    <string name="audio">Audio</string>
+    <string name="video">Video</string>
+    <string name="description_alt">Vacío.</string>
+    <string name="tarea_add">Tarea añadida</string>
+    <string name="no_archivo">No hay archivo adjunto disponible</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string-array name="progress_array">
+        <item>No iniciada</item>
+        <item>Iniciada</item>
+        <item>Avanzada</item>
+        <item>Casi finalizada</item>
+        <item>Finalizada</item>
+    </string-array>
+    <string name="texto3">Tus tareas, tu ritmo, tu éxito.</string>
+    <string name="NoIniciada">No iniciada</string>
+    <string name="Iniciada">Iniciada</string>
+    <string name="Avanzada">Avanzada</string>
+    <string name="CasiFinalizada">Casi finalizada</string>
+    <string name="Finalizada">Finalizada</string>
+    <string name="title_activity_preferences">PreferencesActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+</resources>

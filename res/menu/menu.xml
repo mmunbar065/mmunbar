@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/btnEditar"
+        android:title="@string/mnEditar"
+        ></item>
+    <item android:id="@+id/btnDescripcion" android:title="@string/mnDescripcion" ></item>
+    <item android:id="@+id/btnBorrar" android:title="@string/mnBorrar" ></item>
+</menu>

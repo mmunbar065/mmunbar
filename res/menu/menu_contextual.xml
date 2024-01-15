@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group
+        android:id="@+id/it_group_preferencias">
+        <item
+            android:id="@+id/preferencias"
+            android:title="@string/preferencias"
+            app:showAsAction="never" />
+    </group>
+    <item
+        android:id="@+id/btnAcercaDe"
+                android:title="@string/opCtx1"
+        ></item>
+    <item android:id="@+id/btnSalir" android:title="@string/opCtx2" ></item>
+    <item android:id="@+id/btnPrioritarias" android:icon="@drawable/baseline_star_border_24" android:title="@string/opCtx3" app:showAsAction="ifRoom"></item>
+    <item android:id="@+id/btnAddTask" android:icon="@drawable/baseline_add_task_24" android:title="@string/opCtx4" app:showAsAction="ifRoom"></item>
+</menu>

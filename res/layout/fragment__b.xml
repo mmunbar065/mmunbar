@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment__b"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="bottom"
+    android:background="@color/white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".fragments.Fragment_B">
+
+    <TextView
+        android:id="@+id/tvDescripcion"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.07"
+        android:text="@string/texto10"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"></TextView>
+
+    <ScrollView
+        style="@android:style/Widget.Holo.Light.ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginBottom="30dp"
+        android:layout_weight="0.6"
+        android:clipToPadding="true"
+        android:fillViewport="true"
+        android:scrollbarStyle="insideInset"
+        android:visibility="visible">
+
+        <EditText
+            android:id="@+id/edDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="textMultiLine"
+            android:padding="20dp"></EditText>
+    </ScrollView>
+
+
+    <Button
+        android:id="@+id/btnVolver"
+        android:layout_width="wrap_content"
+
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:layout_marginVertical="10dp"
+        android:background="@drawable/custom_buttom2"
+        android:text="@string/btnVolver" />
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:background="@drawable/custom_buttom2"
+        android:layout_marginBottom="30dp"
+        android:text="@string/btnGuardar" />
+
+</LinearLayout>

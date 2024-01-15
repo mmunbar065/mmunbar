@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="background_1">#ffeef7f0</color>
+    <color name="background_2">#ffeef7f0</color>
+    <color name="cards">#E5FCF5</color>
+    <color name="light_dark">#B3DEC1</color>
+    <color name="dark_purple">#210124</color>
+    <color name="claret">#750D37</color>
+    <color name="red">#F44336</color>
+    <color name="grey">#23353E</color>
+    <color name="oscuro">#000000</color>
+    <color name="resaltado_oscuro">#004C69</color>
+    <color name="primario">#4E616C</color>
+    <color name="primario_oscuro">#20333D</color>
+    <color name="resaltado">#219BCC</color>
+    <color name="claro">#FFf4f4f4</color>
+    <color name="rojo">#FFf01010</color>
+    <color name="secundario">#DCE3E9</color>
+
+
+</resources>

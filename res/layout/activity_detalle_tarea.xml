@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="35dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/titulo_descripcion"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:paddingTop="30dp"
+            android:text="@string/mnDescripcion"
+            android:textAlignment="center"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+        <TextView
+            android:id="@+id/seccion_descripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/descripcionAlt"
+            android:padding="25dp"/></ScrollView>
+
+        <TextView
+            android:id="@+id/seccion_uploads"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:text="@string/uploads"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="25dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                app:srcCompat="@drawable/file"
+                android:padding="7dp"></ImageView>
+
+            <TextView
+                android:id="@+id/seccion_files_doc"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:gravity="center_vertical"
+                android:text="@string/uploads_alt"
+                android:onClick="onDocClicked"
+                app:layout_constraintTop_toBottomOf="@id/seccion_descripcion" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="25dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                app:srcCompat="@drawable/image_gallery__1_"
+                android:padding="7dp"
+                ></ImageView>
+
+            <TextView
+                android:id="@+id/seccion_files_img"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:gravity="center_vertical"
+                android:text="@string/uploads_alt"
+                android:onClick="onImgClicked"
+                app:layout_constraintTop_toBottomOf="@id/seccion_descripcion" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="25dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                app:srcCompat="@drawable/audio_file"
+                android:padding="7dp"></ImageView>
+
+            <TextView
+                android:id="@+id/seccion_files_aud"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:gravity="center_vertical"
+                android:text="@string/uploads_alt"
+                android:onClick="onAudClicked"
+
+                app:layout_constraintTop_toBottomOf="@id/seccion_descripcion" />
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="25dp">
+
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            app:srcCompat="@drawable/video_player"
+            android:padding="7dp"></ImageView>
+        <TextView
+            android:id="@+id/seccion_files_vid"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:gravity="center_vertical"
+            android:text="@string/uploads_alt"
+            android:onClick="onVidClicked"
+
+            app:layout_constraintTop_toBottomOf="@id/seccion_descripcion" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginVertical="35dp"
+        >
+        <Button
+            android:id="@+id/btn_aceptar"
+            android:layout_width="105dp"
+            android:layout_height="55dp"
+            android:background="@drawable/custom_buttom"
+            android:text="@string/bt_aceptar"
+            android:gravity="center"
+            android:layout_marginHorizontal="25dp"
+            android:onClick="onBotonAceptarClicked"/>
+
+    </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

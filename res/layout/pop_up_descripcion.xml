@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="25dp"
+    android:background="@color/background_1"
+    android:fadeScrollbars="false"
+    android:orientation="vertical"
+    android:padding="10dip"
+    >
+
+    <TextView
+        android:id="@+id/tvTituloDescripcion"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="1dip"
+        android:background="@color/background_1"
+        android:text="@string/texto10"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold"
+        />
+
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.85"
+        android:fillViewport="true"
+        android:maxHeight="400dp"
+        android:scrollbarStyle="insideInset"
+        android:scrollbars="vertical">
+
+        <TextView
+            android:id="@+id/tvPopUp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:minHeight="350dp"
+            android:outlineSpotShadowColor="@color/dark_purple" />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnCerrarDescripcion"
+        android:layout_width="wrap_content"
+        android:background="@drawable/custom_buttom2"
+        android:layout_height="0dp"
+        android:layout_weight="0.15"
+        android:layout_gravity="center"
+        android:layout_marginBottom="25dp"
+        android:text="@string/btnVolver" />
+
+</LinearLayout>
