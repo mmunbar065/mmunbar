@@ -1,12 +1,18 @@
-Welcome to my GitHub repository!
-I'm Marta Muñoz, a dedicated Product Manager and Developer passionate about creating innovative solutions and delivering exceptional user experiences.
-This repository serves as my portfolio, showcasing a collection of personal programming projects that reflect my skills and expertise.
+- 👋 Hi, I’m @mmunbar065
+- 👀 I’m interested in technology, literature, sports, politics and board games.
+- 🌱 I created this platform as a portfolio
+- 💻 I'm working as a Product Manager in Telecommunications at the moment
 
------------------------------------------------------------------------------------------------------------------------------------------------------
+- *Content*
+    - for a snapshot of what I can do as a PM, see:[ Caso Práctico ](https://github.com/mmunbar065/product_testcase/blob/main/caso-practico-pm.pdf)
+    - take a look to my programming project for my Certificate on Higher Education in Software development - a web and mobile application to manage home IoT devices-:
+        * [Android app](https://github.com/mmunbar065/iot-management-apk/tree/master)
+        * [Web application](https://github.com/mmunbar065/iot-management-vf/tree/master)
 
-Thank you for visiting my GitHub repository! 
-I look forward to exploring new opportunities and collaborations.
-If you have any questions or feedback, feel free to get in touch. Happy coding! 🚀
+<!---
+mmunbar065/mmunbar065 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+You can click the Preview link to take a look at your changes.
+--->
 
 
 
